@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="kosta.iot.mammoth.stickclient.ClientActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="8"
+        android:orientation="horizontal">
+
+        <kosta.iot.mammoth.stickclient.StickVIew
+            android:id="@+id/stick_view1"
+            android:layout_width="800px"
+            android:layout_height="800px"
+            android:layout_marginLeft="50px"
+            android:layout_marginRight="100px"
+            android:visibility="gone" />
+
+        <kosta.iot.mammoth.stickclient.StickVIew
+            android:id="@+id/stick_view2"
+            android:layout_width="800px"
+            android:layout_height="800px"
+            android:layout_marginLeft="100px"
+            android:layout_marginRight="50px"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="300px"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/infoview"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="show tv"
+                        android:textSize="55px" />
+
+                    <Button
+                        android:id="@+id/up_button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="up" />
+
+                    <Button
+                        android:id="@+id/down_button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="down" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/pitch"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="show tv"
+                        android:textSize="55px" />
+
+                    <Button
+                        android:id="@+id/pitch_bt1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="P up" />
+
+                    <Button
+                        android:id="@+id/pitch_bt2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="P down" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/infoview1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="show tv"
+                        android:textSize="55px" />
+
+                    <Button
+                        android:id="@+id/up_button1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="P up" />
+
+                    <Button
+                        android:id="@+id/down_button1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="P down" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/infoview2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="show tv"
+                        android:textSize="55px" />
+
+                    <Button
+                        android:id="@+id/up_button2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="I up" />
+
+                    <Button
+                        android:id="@+id/down_button2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="I down" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/infoview3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="show tv"
+                        android:textSize="55px" />
+
+                    <Button
+                        android:id="@+id/up_button3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="D up" />
+
+                    <Button
+                        android:id="@+id/down_button3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="D down" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/infoview4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="show tv"
+                        android:textSize="55px" />
+
+                    <Button
+                        android:id="@+id/up_button4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="D up" />
+
+                    <Button
+                        android:id="@+id/down_button4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="D down" />
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/off_button"
+                android:layout_width="400px"
+                android:layout_height="400px"
+                android:text="off" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/text_view"
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="4" />
+
+        <Button
+            android:id="@+id/find_btn"
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="피어검색" />
+
+        <Button
+            android:id="@+id/connect_btn"
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="타겟접속" />
+
+        <Button
+            android:id="@+id/socket_btn"
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="소켓연결" />
+
+        <Button
+            android:id="@+id/socket_disconnect_btn"
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="소켓해제" />
+    </LinearLayout>
+</LinearLayout>
